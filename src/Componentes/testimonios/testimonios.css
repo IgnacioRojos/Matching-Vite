@@ -1,0 +1,34 @@
+.listGroup{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 10px;
+}
+
+.tituloN{
+    margin-left: 50px;
+}
+
+.tarjeta{
+    margin-left: 10px;
+    Width: 360px;
+    Height:444px;
+    border-radius:60px, 30px, 60px, 30px;
+    border: 2px;
+
+}
+
+.star{
+    margin-left: 66px;
+}
+
+.fotoUsuario1{
+   border-radius: 50%;
+   width: 170px;
+   margin-left: 50px;
+}
+
+
+
+
+
