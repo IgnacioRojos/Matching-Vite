@@ -1,0 +1,31 @@
+.bg{
+    background: linear-gradient(90deg, #E7B04B 50.32%, #F3E949 100%)
+}
+.containerBrands{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.containerBrands .wilson{
+    width: 220px;
+    height: 66px;
+
+}
+.containerBrands .asics{
+    width:215px;
+    height: 160px;
+}
+.containerBrands .prince{
+    width:143px;
+    height: 143px;
+}
+
+.containerBrands .bullpadel{
+    width:333px;
+    height: 66px;
+    margin-top: 25px;
+}

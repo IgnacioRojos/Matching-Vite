@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+.bannerContainer {
+    background-image: url("/public/bannerMobiles-modified.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 600px;
+}
+
+.colorWord {
+    color: #E7B04B;
+}
+
+.textTitle {
+    width: 432px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.textP {
+
+    width: 399px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: "0.4px";
+    color: #E7B04B;
+}
+
+.downloadImages {
+    display: flex;
+    gap: 10%
+}
+
+.conatinerMockUp {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.leftMock{
+    position: absolute;
+    margin-top: 20px;
+}
+.centerMock{
+    position: absolute;
+    margin-left: 140px;
+
+}
+.rightMock{
+    margin-left: 270px;
+    margin-top: 20px;
+}

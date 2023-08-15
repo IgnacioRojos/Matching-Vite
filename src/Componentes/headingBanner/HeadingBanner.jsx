@@ -1,6 +1,6 @@
 import './headingBanner.css'
 
-const headingBanner = ({ src,title, text }) => {
+const HeadingBanner = ({ src,title, text }) => {
     return (
       <div className='imageHeading'>
         <img src={src} alt=""/>
@@ -14,4 +14,4 @@ const headingBanner = ({ src,title, text }) => {
     );
 }
 
-export default headingBanner
+export default HeadingBanner
