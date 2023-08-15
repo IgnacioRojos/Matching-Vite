@@ -1,4 +1,5 @@
 import {AiOutlineStar, AiFillStar  } from 'react-icons/ai';
+import "./estrellas.css"
 
 const Estrellas = (props) =>{
     return (

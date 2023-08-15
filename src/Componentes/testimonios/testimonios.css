@@ -7,14 +7,38 @@
 
 .tituloN{
     margin-left: 50px;
+    color:rgba(231, 176, 75, 1)   
+}
+
+.foto1{
+    border-radius: 50%;
+    width: 170px;
+    margin-left: 130px;
+}
+
+.foto2{
+    border-radius: 50%;
+    width: 170px;
+    margin-left: 130px;
+}
+
+.foto3{
+    border-radius: 50%;
+    width: 170px;
+    margin-left: 130px;
+}
+
+p{
+    color:rgba(255, 255, 255, 1);
 }
 
 .tarjeta{
     margin-left: 10px;
     Width: 360px;
     Height:444px;
-    border-radius:60px, 30px, 60px, 30px;
-    border: 2px;
+    background-color:#243142 ;
+    border-radius: 60px, 30px, 60px, 30px;
+
 
 }
 
@@ -22,11 +46,6 @@
     margin-left: 66px;
 }
 
-.fotoUsuario1{
-   border-radius: 50%;
-   width: 170px;
-   margin-left: 50px;
-}
 
 
 
