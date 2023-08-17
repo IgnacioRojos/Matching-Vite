@@ -1,18 +1,20 @@
 import Estrellas from "./Estrellas";
 import Card from 'react-bootstrap/Card';
-import Foto from "./img/usuario.png";
+import Foto3 from "./img/cover.png";
+import Foto2 from "./img/Avatar.png";
+import Foto1 from "./img/Avatar (1).png";
+import Tenis from "./img/tenis.png";
 import "./testimonios.css";
 
 const Testimonios = () => {
     return(
-        <div>
-            
+        <div className="fondo">
+            <h1 className="tituloT">Testimonios</h1>
+
             <div className="listGroup">
-                <img variant="top" src={Foto} className="fotoUsuario1 foto1" />
-                <img variant="top" src={Foto} className="fotoUsuario1 foto2" />
-                <img variant="top" src={Foto} className="fotoUsuario1 foto3" />
                 <Card className="tarjeta">
                     <Card.Body>
+                        <img variant="top" src={Foto1} className="fotoUsuario1 foto1" />
                         <Card.Title className="tituloN">Valentin Vidal</Card.Title>
                         <Card.Text>
                             ¡Increíble plataforma Deportiva! Conocí Compañeros y Mejoré Mi Juego
@@ -22,8 +24,9 @@ const Testimonios = () => {
                     </Card.Body>
                 </Card>
 
-                <Card  className="tarjeta">
+                <Card  className="tarjeta tj2">
                     <Card.Body>
+                        <img variant="top" src={Foto2} className="fotoUsuario1 foto2" />
                         <Card.Title className="tituloN">Sofia Martinez</Card.Title>
                         <Card.Text>
                             App Para Amantes De La Competencia.
@@ -33,9 +36,11 @@ const Testimonios = () => {
                         <Estrellas score = {5}/>
                     </Card.Body>
                 </Card>
+                <img src={Tenis} className="tenis"/>
 
-                <Card  className="tarjeta">
+                <Card  className="tarjeta tj1">
                     <Card.Body>
+                        <img variant="top" src={Foto3} className="fotoUsuario1 foto3" />
                         <Card.Title className="tituloN">Nicolas Acosta</Card.Title>
                         <Card.Text>
                             ¡La Mejor Forma De Jugar! Eventos Cercanos,Reservar Canchas Fáciles Y Descuentos.
@@ -44,7 +49,11 @@ const Testimonios = () => {
                         <Estrellas score = {5}/>
                     </Card.Body>
                 </Card>
+
+
             </div>
+
+
         </div>
     )
 

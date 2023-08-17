@@ -1,17 +1,29 @@
 .container{
-    background-color:#e8b04b ;
+    background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
+    
 }
 
 .linea{
-    margin-left: 2px;
+    margin-left: 51px;
+    width: 1778px
+    
 }
 
-
-
-
+.texto{
+    margin-left: 815px;
+}
 
 .logo{
     margin-right: 855px;
+}
+
+.logoM{
+    margin-top: 50px;
+    margin-left: 52px;
+}
+
+.redes{
+    text-align: center;
 }
 
 h3{

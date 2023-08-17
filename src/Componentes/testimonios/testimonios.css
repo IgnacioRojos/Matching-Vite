@@ -1,35 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
 .listGroup{
     display: grid;
-    align-items: center;
+    margin-left: 200px;
     grid-template-columns: repeat(3,1fr);
-    margin-bottom: 10px;
+    
 }
 
+.tituloT{
+    text-align: center;
+    font-size: 64px;
+    font-family: Orbitron;
+    line-height:80.26px;
+    color: white;
+
+}
+
+.fondo{
+    background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
+
+}
+
+
 .tituloN{
-    margin-left: 50px;
-    color:rgba(231, 176, 75, 1)   
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color:rgba(231, 176, 75, 1);
+    font-size: 20px;   
 }
 
 .foto1{
     border-radius: 50%;
-    width: 170px;
-    margin-left: 130px;
+    width: 80px;
+    height: 80px;
+    top:131%;
+    right: 1468px;
+    position: absolute;
 }
 
 .foto2{
     border-radius: 50%;
-    width: 170px;
-    margin-left: 130px;
+    width: 80px;
+    height: 80px;
+    top: 131%;
+    right: 903px;
+    position: absolute;
 }
 
 .foto3{
     border-radius: 50%;
-    width: 170px;
-    margin-left: 130px;
+    width: 80px;
+    height: 80px;
+    top: -9%;
+    right: 130px;
+    position: absolute;
 }
 
 p{
     color:rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;   
 }
 
 .tarjeta{
@@ -37,13 +68,30 @@ p{
     Width: 360px;
     Height:444px;
     background-color:#243142 ;
-    border-radius: 60px, 30px, 60px, 30px;
+    margin-bottom: 50px;
+    border-radius: 60px 30px 60px 30px;
+    border: 2px solid rgba(255, 255, 255, 1)
+}
+
+.tj1{
+    position: relative;
+}
 
 
+
+
+
+.tenis{
+    width: 800px;
+    height: 434px;
+    top: 142.2%;
+    position: absolute;
+    left: 1103px;
+    
 }
 
 .star{
-    margin-left: 66px;
+    margin-left: 125px;
 }
 
 
