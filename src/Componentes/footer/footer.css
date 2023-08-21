@@ -1,31 +1,75 @@
 .container{
     background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
+
     
 }
-
 .linea{
-    margin-left: 51px;
-    width: 1778px
-    
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 }
-
 .texto{
-    margin-left: 815px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+
+}
 .logo{
-    margin-right: 855px;
+    align-items: left;
+    display: flex;
 }
-
 .logoM{
     margin-top: 50px;
     margin-left: 52px;
 }
-
 .redes{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.imgLinea{
+    width: 95%;
+    object-fit: cover;
+}
+
 
 h3{
     color: #233142;
+}
+@media only screen and (max-width: 768px){
+
+    .logoM{
+        margin-top: 50px;
+        width: 130px;
+        margin-left: 10px;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    
+    }
+
+    .texto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+    
+    }
+
+    .imgLinea{
+        width: 308px;
+    }
+
+
+
 }

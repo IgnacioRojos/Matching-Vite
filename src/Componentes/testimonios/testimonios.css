@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
 .listGroup{
-    display: grid;
+    display: flex;
     margin-left: 200px;
     grid-template-columns: repeat(3,1fr);
-    
+    justify-content: space-evenly;  
 }
 
 .tituloT{
@@ -17,8 +17,10 @@
 
 .fondo{
     background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
-
+  
 }
+
+
 
 
 .tituloN{
@@ -33,19 +35,22 @@
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    top:131%;
-    right: 1468px;
+    top: -9%;
+    left: 137px;
     position: absolute;
+    display: flex;
 }
 
 .foto2{
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    top: 131%;
-    right: 903px;
+    top: -9%;
+    right: 142px;
     position: absolute;
+    display: flex;
 }
+
 
 .foto3{
     border-radius: 50%;
@@ -53,6 +58,7 @@
     height: 80px;
     top: -9%;
     right: 130px;
+    display: flex;
     position: absolute;
 }
 
@@ -64,7 +70,9 @@ p{
 }
 
 .tarjeta{
-    margin-left: 10px;
+    position: relative;
+    display: flex;
+    margin-left: -190px;
     Width: 360px;
     Height:444px;
     background-color:#243142 ;
@@ -73,29 +81,64 @@ p{
     border: 2px solid rgba(255, 255, 255, 1)
 }
 
-.tj1{
+.tenis{
+    margin-left: 1093px;
+    position: absolute;   
+}
+
+.imgTenis{
+    object-fit: cover;
+    position: relative;
+    top: 64px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.fondo.listGroup{
     position: relative;
 }
 
 
-
-
-
-.tenis{
-    width: 800px;
-    height: 434px;
-    top: 142.2%;
-    position: absolute;
-    left: 1103px;
-    
-}
-
 .star{
-    margin-left: 125px;
+    margin-left: 135px;
 }
 
 
+@media only screen and (max-width: 768px){
+    .tituloT{
+        text-align: center;
+        font-size: 40px;
+        font-family: Orbitron;
+        line-height: 80.26px;
+    }
+    .listGroup{
+        display: grid;
+        grid-template-columns: min-content;
+    }
 
+    .tenis {
+        margin-left: -398px;
+    }
+    .imgTenis {
+        object-fit: cover;
+        position: relative;
+        top: 1061px;
+        width: 100%;
+        height: 100%;
+    }
+    .foto3 {
+        right: 140px;
+    }
+
+    .star {
+        margin-left: 142px;
+    }
+
+
+
+
+}
 
 
 

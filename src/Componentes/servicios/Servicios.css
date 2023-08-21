@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+
+
+.contenedorCont{
+    position: absolute;
+    width: 1346px;
+    top: 89px;
+}
+
+.fondoTenis{
+    background-image: url("./img/tenista.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.containterServicios{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedorFYT{
+    display: flex;
+    position: relative;
+    padding-left: 168px;
+}
+
+.iconosServ{
+    margin-top: 10px;
+    Height:40px; 
+}
+
+.tituloServicios{
+    font-family: Orbitron;
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 164px;
+    background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.fondotarj{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.tituloPrincipal{
+    object-fit: cover;
+}
+
+.textServ{
+    margin-left: 177px;
+    margin-right: 554px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hombreTenista{
+    position:absolute;
+    top: 307px;
+    right: 14%;
+
+}
+
+.tituloServ{
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

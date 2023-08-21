@@ -22,9 +22,11 @@ const Footer = () =>{
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-12 finFooter">
-                    <img className="linea" src={Line}></img><br/>
-                    <img className="texto" src={Der}></img>
+                <div className="col-lg-12 linea ">
+                    <img src={Line} className="imgLinea"></img><br/>
+                </div>
+                <div className="texto">
+                    <img src={Der} ></img>
                 </div>
             </div>
         </div>
