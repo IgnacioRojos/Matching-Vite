@@ -40,6 +40,7 @@
     margin-left: 164px;
     background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
     -webkit-text-fill-color: transparent;
+    background-clip: content-box;
     -webkit-background-clip: text;
 }
 
@@ -77,5 +78,6 @@
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
     -webkit-text-fill-color: transparent;
+    background-clip: content-box;
     -webkit-background-clip: text;
 }
