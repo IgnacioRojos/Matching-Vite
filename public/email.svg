@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ic:sharp-email">
+<path id="Vector" d="M22 4H2V20H22V4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="url(#paint0_linear_239_652)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_239_652" x1="0.73494" y1="4" x2="22.7831" y2="4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E7B04B"/>
+<stop offset="1" stop-color="#F3E949"/>
+</linearGradient>
+</defs>
+</svg>
