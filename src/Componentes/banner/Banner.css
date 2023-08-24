@@ -1,0 +1,13 @@
+.containerBanner{
+    background-image: url("img/fondoTenis.png");
+    padding-bottom:100px;
+
+}
+
+.listGroup2{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}

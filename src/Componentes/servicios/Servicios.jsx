@@ -12,7 +12,10 @@ const Servicios = () =>{
     return(
         <div className="fondoTenis">
             <div className="containterServicios">
-                <img className="fondotarj"  src={Fondo}/>
+                <div className="fondoDeTarj">
+                    <img className="fondotarj"  src={Fondo}/>
+                </div>
+
                 <div className="contenedorCont">
                     <div className="tituloPrincipal">
                         <h1 className="tituloServicios">Servicios</h1>
@@ -54,8 +57,10 @@ const Servicios = () =>{
                         Tendrás la capacidad de emparejar equipos de manera equitatica,asegurando así la realización de partidos
                         justos y emocionantes.
                     </p>
-
-                    <img src={HT} className="hombreTenista"/>
+                    <div className="hTenis">
+                        <img src={HT} className="hombreTenista"/> 
+                    </div>
+                   
                     </div>
 
             </div>

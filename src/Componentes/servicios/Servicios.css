@@ -15,7 +15,8 @@
 
 .containterServicios{
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 240px;
     position: relative;
 }
 
@@ -45,7 +46,6 @@
 }
 
 .fondotarj{
-    display: flex;
     justify-content: center;
     object-fit: cover;
 }
@@ -63,9 +63,19 @@
 
 .hombreTenista{
     position:absolute;
-    top: 307px;
-    right: 14%;
+    object-fit: cover;
+    top: 218px;
+    right: 0%;
 
+}
+.fondoDeTarj{
+    display: flex;
+
+    object-fit: cover;
+}
+
+.hTenis{
+    display: flex;
 }
 
 .tituloServ{
@@ -80,4 +90,64 @@
     -webkit-text-fill-color: transparent;
     background-clip: content-box;
     -webkit-background-clip: text;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    #root{
+        overflow-x: hidden;
+    }
+
+    .hombreTenista {
+        width: 710px;
+        position: absolute;
+        object-fit: cover;
+        top: 1346px;
+        right: 60%;
+    }
+
+    .fondotarj{
+        width: 240%;
+        height: 2338px;
+        justify-content: center;
+        object-fit: cover
+    }
+
+    .contenedorFYT {
+        display: flex;
+    }
+
+    .textServ {
+        margin-left: 361px;
+        width: 304px;
+    }
+
+    
+
+    .contenedorCont {
+        position: absolute;
+        width: 1346px;
+        margin-left: 898px;
+        top: 187px;
+
+    }
+
+    .containterServicios {
+        display: flex;
+        justify-content: center;
+    }
+
+    .textServ {
+        margin-left: 177px;
+    }
+
+    .containterServicios {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
 }
