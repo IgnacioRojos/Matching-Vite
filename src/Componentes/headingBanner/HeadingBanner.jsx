@@ -1,5 +1,6 @@
 import './headingBanner.css'
 
+
 const HeadingBanner = ({ src,title, text }) => {
     return (
       <div className='imageHeading'>
@@ -10,6 +11,7 @@ const HeadingBanner = ({ src,title, text }) => {
         <div className='imageText'>
             {text}
         </div>
+        
       </div>
     );
 }

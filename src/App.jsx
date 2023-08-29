@@ -8,6 +8,7 @@ import BannerMobile from "./Componentes/bannerMobile/BannerMobile"
 import ContactUs from "./Componentes/contactUs/ContactUs"
 import Servicios from "./Componentes/servicios/Servicios"
 import Banner from "./Componentes/banner/Banner"
+import Whatsapp from "./Componentes/WhatsappLogo/Whatsapp"
 import NavBar from "./Componentes/NavBar/NavBar"
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
 
