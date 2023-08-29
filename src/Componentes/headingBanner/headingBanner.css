@@ -2,12 +2,12 @@
 
 .imageHeading {
     position: relative;
-    display: inline-block;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .imageHeading img {
@@ -53,4 +53,43 @@
     letter-spacing: 0.36px;
     max-width: 730px;
     text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+    .imageHeading .imageTextTitle {
+        margin: auto;
+        color: white;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        max-width: 394px;
+        
+    }
+    .containerText{
+        display: flex;
+        flex-direction: column;
+    }
+    .imageHeading .imageTextTitle::before {
+        content: "Uniendo";
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -0.64px;
+        max-width: 394px;
+        color: #E7B04B;
+    }
+    .imageHeading .imageText {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight:bold;
+        text-align: left;
+        margin-right: 110px;
+        
+    }
 }

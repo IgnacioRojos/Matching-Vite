@@ -1,8 +1,9 @@
 .container{
     background: linear-gradient(90deg, #E7B04B -6.33%, #F3E949 103.92%);
-
+    position: relative;
     
 }
+
 .linea{
     position:relative;
     display: flex;

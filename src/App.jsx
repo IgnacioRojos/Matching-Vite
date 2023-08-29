@@ -26,6 +26,7 @@ function App() {
             <Banner />
             <Testimonios />
             <BannerMobile />
+            <Whatsapp></Whatsapp>
             <Footer />
           </>
           }
@@ -46,11 +47,12 @@ function App() {
           </>
           }
         />
-      </Routes>
-      <Route
+        <Route
           path='*'
           element={<Navigate to="/home"></Navigate>}
         />
+      </Routes>
+      
     </BrowserRouter>
   )
 }

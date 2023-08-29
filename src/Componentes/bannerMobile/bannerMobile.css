@@ -45,19 +45,57 @@
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.leftMock{
+.leftMock {
     position: absolute;
     margin-top: 20px;
 }
-.centerMock{
+
+.centerMock {
     position: absolute;
     margin-left: 140px;
 
 }
-.rightMock{
+
+.rightMock {
     margin-left: 270px;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .bannerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        height: auto;
+    }
+    .textTitle {
+        width: 400px;
+        margin: auto;
+        margin-top: 30px;
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+    }
+    .textP {
+
+        width: 380px;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .downloadImages {
+        display: flex;
+        gap: 10%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .downloadImages img{
+        width: 140px;
+    }
 }

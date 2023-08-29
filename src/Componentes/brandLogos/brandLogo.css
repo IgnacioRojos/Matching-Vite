@@ -29,3 +29,40 @@
     height: 66px;
     margin-top: 25px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .containerBrands{
+        display: grid;
+        width: 100%;
+        grid-template-areas: 
+        "wilson asics"
+        "prince bullpadel"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+    }
+    .containerBrands .wilson{
+        width: 110px;
+        height: 33px;
+        grid-area: wilson;
+    }
+    .containerBrands .asics{
+        width:107px;
+        height: 80px;
+        grid-area: asics;
+    }
+    .containerBrands .prince{
+        width:70px;
+        height: 70px;
+        grid-area: prince;
+    }
+    
+    .containerBrands .bullpadel{
+        width:160px;
+        height: 33px;
+        margin-top: 12px;
+        grid-area: bullpadel;
+    }
+}
