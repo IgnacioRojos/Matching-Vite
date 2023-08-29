@@ -8,6 +8,7 @@ import BannerMobile from "./Componentes/bannerMobile/BannerMobile"
 import ContactUs from "./Componentes/contactUs/ContactUs"
 import Servicios from "./Componentes/servicios/Servicios"
 import Banner from "./Componentes/banner/Banner"
+import Whatsapp from "./Componentes/WhatsappLogo/Whatsapp"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <HeadingBanner src={"./oskar-hagberg-0mANKAqH87U-unsplash.png"} title={" deportistas, compitiendo juntos"} text={"¡Conéctate con deportistas y logra tu máximo rendimiento! Nuestra plataforma innovadora permite detectar habilidades, formar equipos equitativos y disfrutar de eventos deportivos emocionantes. Acumula puntos en cada participación y canjéalos por atractivos descuentos en marcas destacadas. Únete a diversos clubes y reserva canchas fácilmente ¡Vive una experiencia integral para los entusiastas del deporte!"}></HeadingBanner>
       <BrandLogos />
+      <Whatsapp/>
       <Banner/>
       <Servicios/>
       <Testimonios/>
