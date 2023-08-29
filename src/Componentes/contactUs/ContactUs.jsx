@@ -1,5 +1,12 @@
+import { useState } from 'react';
 import './contact.css'
 const ContactUs = () => {
+    const [checkedGen, setCheckedGen] = useState(true)
+    const [checkedPar, setcheckedPar] = useState(false)
+    const handleChange = () => {
+        setCheckedGen(!checkedGen)
+        setcheckedPar(!checkedPar)
+    }
     return (
         <div className="containerContact">
             <section className='containerForm'>
@@ -28,7 +35,40 @@ const ContactUs = () => {
                     </section>
                 </div>
                 <div className='contactForm'>
-                    aa
+                    <div className='name positionDiv'>
+                        <p>Nombre</p>
+                        <input className='inp' type="text" />
+                    </div>
+                    <div className='lastname positionDiv'>
+                        <p>Apellido</p>
+                        <input className='inp' type="text" />
+                    </div>
+                    <div className='email positionDiv'>
+                        <p>Email</p>
+                        <input className='inp' type="text" />
+                    </div>
+                    <div className='tel positionDiv'>
+                        <p>Numero de Telefono</p>
+                        <input className='inp' type="number" />
+                    </div>
+                    <div className='check'>
+                        <h3>Selecciona Asunto</h3>
+                        <label>
+                            <input type="checkbox" checked={checkedGen} onChange={handleChange} />
+                            Consulta General
+                        </label>
+                        <label className=''>
+                            <input type="checkbox" checked={checkedPar} onChange={handleChange} />
+                            Consulta Particular
+                        </label>
+                    </div>
+                    <div className='msj '>
+                        <p>Mensaje</p>
+                        <input className='inp' type="text" />
+                    </div>
+                    <div className='btn'>
+                        <button className='btnEnviar'>Enviar Mensaje</button>
+                    </div>
                 </div>
             </section>
         </div>

@@ -15,7 +15,7 @@
     margin-top: 10%;
     border-radius: 60px 30px 30px 30px;
     display: flex;
-    gap:100px;
+    gap: 100px;
     width: 1200px;
 }
 
@@ -83,6 +83,99 @@
 .logosB {
     margin-top: 110px;
     display: flex;
-    
+
     justify-content: space-around;
+}
+
+.inp {
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    outline: none;
+    background-color: transparent;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+ }
+.contactForm{
+    width: 50%;
+    display: grid;
+    grid-template-areas: 
+     "name lastname"
+     "email tel"
+     "check check"
+     "msj msj"
+     "btnEnviar btnEnviar"
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 150px 100px 150px 50px;
+}
+.positionDiv{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+    height: 100px;
+}
+.name{
+    grid-area: name;
+    margin-top: 70px;
+}
+.lastname{
+    margin-top: 70px;
+}
+.positionDiv p{
+    margin-bottom: 3px;
+    font-size: medium;
+    color: black;
+    
+}
+
+.lastname{
+    grid-area: lastname;
+}
+.email{
+    grid-area:email
+}
+.tel{
+    grid-area:tel
+}
+.check{
+    grid-area: check;
+}
+.msj{
+    grid-area: msj;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    height: 100px;
+    
+}
+.msj p{
+    margin-bottom: 3px;
+    font-size: medium;
+    color: black;
+}
+.msj input{
+    width: 100%;
+}
+.btn{
+    grid-area: btnEnviar;
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+}
+.btnEnviar{
+    
+    border-radius: 30px;
+    background-color: #243142;
+    border: 0;
+    color: #E7B04B;
+    width: 200px;
+    height: 50px;
+    
 }

@@ -1,0 +1,12 @@
+.navbar {
+    position: absolute;
+    z-index: 999;
+    height: 60px;
+    background-color: #243142;
+    border-radius: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+   left: 0;
+   right: 0;
+  }
