@@ -4,3 +4,17 @@
     Top:800px;
     Left:162px;
 }
+
+@media only screen and (max-width: 768px){
+    .whatsappFlotante{
+        position: absolute;
+        position: fixed;
+        Top:800px;
+        Left:11px;
+    }
+
+    .imgWhats{
+        width: 47px;
+    }
+
+}
