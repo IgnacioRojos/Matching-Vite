@@ -68,7 +68,10 @@ nav {
 		visibility: visible;
 		opacity: 1;
 	}
-
+	header img{
+		width: 180px;
+		margin-right: 80px;
+	}
 	header nav {
 		position: fixed;
 		top: -100vh;
@@ -80,7 +83,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: white;
+		background-color: #243142;
 		transition: 1s;
 	}
 
@@ -96,7 +99,7 @@ nav {
 
 	nav a {
 		font-size: 1.5rem;
-        color: black;
+        color: white;
 
 	}
     .linksContainer{

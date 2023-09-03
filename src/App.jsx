@@ -35,7 +35,7 @@ function App() {
           path='/contacto'
           element={<> <NavBar></NavBar>
             <ContactUs />
-            <Footer />
+            {/* <Footer /> */}
           </>
           }
         />

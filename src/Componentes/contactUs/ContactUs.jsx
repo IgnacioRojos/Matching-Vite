@@ -35,6 +35,7 @@ const ContactUs = () => {
                     </section>
                 </div>
                 <div className='contactForm'>
+                    <h2 className='contactanos'>Contáctanos</h2>
                     <div className='name positionDiv'>
                         <p>Nombre</p>
                         <input className='inp' type="text" />
@@ -48,7 +49,7 @@ const ContactUs = () => {
                         <input className='inp' type="text" />
                     </div>
                     <div className='tel positionDiv'>
-                        <p>Numero de Telefono</p>
+                        <p>Telefono</p>
                         <input className='inp' type="number" />
                     </div>
                     <div className='check'>

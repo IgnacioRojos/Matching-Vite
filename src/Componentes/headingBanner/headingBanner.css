@@ -56,16 +56,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .imageHeading {
+        text-align:start;
+    
+    }
     .imageHeading .imageTextTitle {
-        margin: auto;
-        color: white;
-        font-family: 'Orbitron', sans-serif;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 100%;
-        max-width: 394px;
-        
+        font-size: 24px;
     }
     .containerText{
         display: flex;
@@ -74,7 +70,7 @@
     .imageHeading .imageTextTitle::before {
         content: "Uniendo";
         font-family: 'Orbitron', sans-serif;
-        font-size: 32px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
@@ -90,6 +86,7 @@
         font-weight:bold;
         text-align: left;
         margin-right: 110px;
-        
+        left: 10%;
+        top:42%;
     }
 }

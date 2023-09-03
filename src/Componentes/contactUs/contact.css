@@ -106,6 +106,7 @@
     width: 50%;
     display: grid;
     grid-template-areas: 
+     "contactanos contactanos"
      "name lastname"
      "email tel"
      "check check"
@@ -113,7 +114,7 @@
      "btnEnviar btnEnviar"
     ;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 150px 100px 150px 50px;
+    grid-template-rows:100px 100px 150px 100px 150px 50px;
 }
 .positionDiv{
     display: flex;
@@ -122,13 +123,17 @@
     align-items: flex-start;
     height: 100px;
 }
+.contactanos{
+    grid-area: contactanos;
+    grid-row: 1 / 2;
+    margin: auto;
+    font-family: 'Orbitron', sans-serif;
+}
 .name{
     grid-area: name;
-    margin-top: 70px;
+
 }
-.lastname{
-    margin-top: 70px;
-}
+
 .positionDiv p{
     margin-bottom: 3px;
     font-size: medium;
@@ -180,4 +185,119 @@
     width: 200px;
     height: 50px;
     
+}
+
+@media only screen and (max-width: 1024px) {
+    .containerContact {
+        display: flex;
+        
+        justify-content: center;
+    
+    }
+    
+    .containerForm {
+        display: flex;
+        flex-direction:column-reverse;
+        gap: 10px;
+        width: 400px;
+        margin-top: 150px;
+    }
+    
+    .contactInfo {
+        width: 350px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contactForm{
+        width: 350px;
+        display: grid;
+        grid-template-areas:
+        "contactanos contactanos"
+         "name lastname"
+         "email tel"
+         "check check"
+         "msj msj"
+         "btnEnviar btnEnviar"
+        ;
+        grid-template-columns: 175px 175px;
+        grid-template-rows:80px 80px 80px 80px 80px 50px;
+        gap:20px
+    }
+    .positionDiv{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        align-items: flex-start;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .contactanos{
+        grid-area: contactanos;
+        grid-row: 1 / 2;
+        margin: auto;
+        font-family: 'Orbitron', sans-serif;
+    }
+    .name{
+        grid-area: name;
+        
+    }
+    .positionDiv p{
+        margin-bottom: 3px;
+        font-size: medium;
+        color: black;
+        
+    }
+    
+    .lastname{
+        grid-area: lastname;
+    }
+    .email{
+        grid-area:email
+    }
+    .tel{
+        grid-area:tel
+    }
+    .check{
+        grid-area: check;
+        margin-left: 20px;
+    }
+    .msj{
+        grid-area: msj;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        align-items: flex-start;
+        height: 100px;
+        margin-left: 20px;
+        
+    }
+    .msj p{
+        margin-bottom: 3px;
+        font-size: medium;
+        color: black;
+    }
+    .msj input{
+        width: 100%;
+    }
+    .btn{
+        grid-area: btnEnviar;
+        display: flex;
+        justify-content: end;
+        margin-right: 10px;
+    }
+    .btnEnviar{
+        
+        border-radius: 30px;
+        background-color: #243142;
+        border: 0;
+        color: #E7B04B;
+        width: 200px;
+        height: 50px;
+        
+    }
 }
