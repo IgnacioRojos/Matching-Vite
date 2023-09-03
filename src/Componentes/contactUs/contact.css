@@ -119,7 +119,7 @@
 .positionDiv{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: auto;
     align-items: flex-start;
     height: 100px;
 }
@@ -190,7 +190,7 @@
 @media only screen and (max-width: 1024px) {
     .containerContact {
         display: flex;
-        
+        height: 1400px;
         justify-content: center;
     
     }
@@ -199,22 +199,23 @@
         display: flex;
         flex-direction:column-reverse;
         gap: 10px;
-        width: 400px;
+        width: 90%;
         margin-top: 150px;
     }
     
     .contactInfo {
-        width: 350px;
-        height: 500px;
-        margin-top: 10px;
+        width: 90%;
+        height: 550px;
+        margin-top: 40%;
         margin-left: 10px;
         margin-bottom: 10px;
         margin-left: auto;
         margin-right: auto;
+        position: relative;
     }
     
     .contactForm{
-        width: 350px;
+        width: 100%;
         display: grid;
         grid-template-areas:
         "contactanos contactanos"
@@ -224,9 +225,9 @@
          "msj msj"
          "btnEnviar btnEnviar"
         ;
-        grid-template-columns: 175px 175px;
-        grid-template-rows:80px 80px 80px 80px 80px 50px;
-        gap:20px
+        grid-template-columns: 40% 40%;
+        grid-template-rows:17% 17% 17% 17% 17% 17%; 
+        gap:5%
     }
     .positionDiv{
         display: flex;
@@ -235,6 +236,9 @@
         align-items: flex-start;
         height: 100px;
         margin-left: 20px;
+    }
+    .inp{
+        width: 200%;
     }
     .contactanos{
         grid-area: contactanos;
@@ -253,6 +257,9 @@
         
     }
     
+    .logosB {
+        margin-top: 30px;
+    }
     .lastname{
         grid-area: lastname;
     }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Orbitron&family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
 
 .bannerContainer {
-    background-image: url("/public/bannerMobiles-modified.jpg");
+    background-image: url("/bannerMobiles-modified.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,16 +71,18 @@
         justify-content: center;
         align-items: center;
         gap: 5%;
-        height: auto;
+        height: 800px;
     }
+
     .textTitle {
-        width: 400px;
+        width: 70%;
         margin: auto;
         margin-top: 30px;
         color: #FFFFFF;
         font-family: 'Poppins', sans-serif;
         font-size: 25px;
     }
+
     .textP {
 
         width: 380px;
@@ -88,6 +90,7 @@
         margin-top: 20px;
 
     }
+
     .downloadImages {
         display: flex;
         gap: 10%;
@@ -95,7 +98,32 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .downloadImages img{
+
+    .downloadImages img {
         width: 140px;
+    }
+
+    .leftMock {
+
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+
+    .centerMock {
+
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .rightMock {
+        width: 30%;
+        margin-top: 10px;
+        margin-left: 60%;
+    }
+
+    .conatinerMockUp {
+        width: 100%;
+
     }
 }

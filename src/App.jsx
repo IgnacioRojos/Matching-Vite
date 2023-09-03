@@ -11,6 +11,7 @@ import Banner from "./Componentes/banner/Banner"
 import Whatsapp from "./Componentes/WhatsappLogo/Whatsapp"
 import NavBar from "./Componentes/NavBar/NavBar"
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import AboutUs from "./Componentes/AboutUs/AboutUs"
 
 function App() {
 
@@ -35,7 +36,7 @@ function App() {
           path='/contacto'
           element={<> <NavBar></NavBar>
             <ContactUs />
-            {/* <Footer /> */}
+            <Footer />
           </>
           }
         />
@@ -43,6 +44,14 @@ function App() {
           path='/servicios'
           element={<> <NavBar></NavBar>
             <Servicios />
+            <Footer />
+          </>
+          }
+        />
+        <Route
+          path='/nosotros'
+          element={<> <NavBar></NavBar>
+            <AboutUs />
             <Footer />
           </>
           }
